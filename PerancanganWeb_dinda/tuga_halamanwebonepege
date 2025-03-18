@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website One Page Sederhana</title>
+    <style>
+        /* Reset dasar untuk margin dan padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Pengaturan dasar untuk body */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Styling untuk Header */
+        header {
+            background: #333;
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        /* Styling untuk Section */
+        section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        section p {
+            font-size: 1.2em;
+            color: #555;
+        }
+
+        /* Styling untuk Footer */
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        /* Responsif untuk perangkat kecil (Mobile) */
+        @media screen and (max-width: 768px) {
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+            header h1 {
+                font-size: 2.5em;
+            }
+            section h2 {
+                font-size: 2em;
+            }
+            section p {
+                font-size: 1.1em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header id="home">
+        <div class="container">
+            <h1>Selamat Datang di Website Kami!</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Beranda</a></li>
+                    <li><a href="#about">Tentang</a></li>
+                    <li><a href="#services">Layanan</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Tentang Kami Section -->
+    <section id="about">
+        <div class="container">
+            <h2>Tentang Kami</h2>
+            <p>Website ini adalah contoh sederhana untuk mempelajari pembuatan halaman web one-page. Kami memberikan informasi dasar tentang kami dan layanan yang kami tawarkan.</p>
+        </div>
+    </section>
+
+    <!-- Layanan Kami Section -->
+    <section id="services">
+        <div class="container">
+            <h2>Layanan Kami</h2>
+            <p>Kami menyediakan layanan desain web, pengembangan aplikasi, dan konsultasi teknologi untuk mendukung bisnis Anda. Hubungi kami untuk informasi lebih lanjut!</p>
+        </div>
+    </section>
+
+    <!-- Kontak Kami Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Kontak Kami</h2>
+            <p>Email: info@website.com</p>
+            <p>Telepon: 123-456-7890</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Website Kami. Semua hak dilindungi.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
